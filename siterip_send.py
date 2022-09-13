@@ -8,7 +8,7 @@ links = []
 print("Restarting")
 f = open("final_links.txt", "r")
 for i in f:
-    links.append("/mirror " + i[:len(i) - 1])
+    links.append("/mirror@spidynaikbot " + i[:len(i) - 1])
 f.close()
 while True:
     for i in links:
@@ -21,5 +21,3 @@ while True:
         app.run(main())
 
         sleep(1)
-
-#bhfpodwfdr
