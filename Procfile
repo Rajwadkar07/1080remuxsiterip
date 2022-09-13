@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python siterip_send.py
