@@ -20,4 +20,4 @@ while True:
 
         app.run(main())
 
-        sleep(1)
+        sleep(10)
