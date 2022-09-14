@@ -10,14 +10,14 @@ f = open("final_links1.txt", "r")
 for i in f:
     links.append("/mirror " + i[:len(i) - 1])
 f.close()
-while True:
-    for i in links:
-        async def main():
-            async with app:
-                print(i)
-                await app.send_message(-1001548796191, i)
+
+for i in links:
+    async def main():
+        async with app:
+            print(i)
+            await app.send_message(-1001548796191, i)
 
 
-        app.run(main())
+    app.run(main())
 
-        sleep(10)
+    sleep(10)
