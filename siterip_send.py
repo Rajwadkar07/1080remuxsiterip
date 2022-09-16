@@ -6,7 +6,7 @@ app = Client("my_account2")
 
 links = []
 print("Restarting")
-f = open("final_links1.txt", "r")
+f = open("/links/final_links_000.txt", "r")
 for i in f:
     links.append("/mirror " + i[:len(i) - 1])
 f.close()
