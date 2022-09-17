@@ -11,7 +11,6 @@ f = open(os.getcwd() + "/links/final_links_000.txt", "r")
 for i in f:
     links.append("/mirror " + i[:len(i) - 1])
 f.close()
-
 for i in links:
     async def main():
         async with app:
@@ -21,4 +20,4 @@ for i in links:
 
     app.run(main())
 
-    sleep(10)
+sleep(10)
