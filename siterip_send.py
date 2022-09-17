@@ -19,4 +19,4 @@ for i in links:
 
 
     app.run(main())
-    sleep(10)
+    sleep(5)
