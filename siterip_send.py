@@ -2,7 +2,6 @@
 from pyrogram import Client
 from time import sleep
 import os
-import sys
 
 app = Client("my_account2")
 
@@ -21,4 +20,4 @@ for i in links:
 
     app.run(main())
     sleep(5)
-sys.exit()
+sleep(172800)
