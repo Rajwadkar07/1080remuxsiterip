@@ -20,4 +20,3 @@ for i in links:
 
     app.run(main())
     sleep(5)
-sleep(172800)
